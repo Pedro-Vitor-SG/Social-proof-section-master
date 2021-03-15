@@ -1,0 +1,88 @@
+.containerHeader {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:5rem ;
+    margin-bottom: 2.5rem;
+    color: var(--very-dark-magenta);
+}
+
+.containerHeader .containerLoveUsers{
+    width: 40vw;
+}
+.containerHeader .containerLoveUsers h1{
+    width: 65%;
+    margin-bottom: 1rem;
+}
+.containerHeader .containerLoveUsers p{
+    line-height: 1.8rem;
+}
+
+.containerHeader .containerStars{
+    display: flex;
+    flex-direction:column;
+    margin-top: 1rem;
+}
+
+.containerHeader .containerStars p{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.containerHeader .containerStars .p-left{
+    margin-left: -2.5rem;
+}
+.containerHeader .containerStars .p-right{
+    margin-left: 4.5rem;
+}
+.containerHeader .containerStars img{
+    margin-right: .3rem;
+}
+
+@media  (min-width: 320px) and (max-width:840px) {
+ 
+    .containerHeader{
+        background-color: white;
+
+        margin: 0;
+        flex-direction: column;
+    }
+    .containerHeader .containerLoveUsers{
+        width: 100vw;
+        margin-bottom: 3rem;
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .containerHeader .containerLoveUsers h1{
+        width: 20rem;
+    }
+    .containerHeader .containerLoveUsers p {
+        width: 35rem;
+    }
+    .containerHeader .containerStars {
+        margin-bottom: 1.5rem;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .containerHeader .containerStars p{
+        margin: 0;
+    }
+    .containerHeader .containerStars p span{
+        display: block;
+        margin-top: .5rem;
+        margin-bottom: 2rem;
+    }
+    .containerHeader .containerStars .p-left, 
+    .containerHeader .containerStars .p-right {
+        margin: 0;
+    }
+   
+}
+/* @media (min-width: 600px) and (max-width: 768px)  {
+   
+   
+} */

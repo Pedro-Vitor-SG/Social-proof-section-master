@@ -1,0 +1,69 @@
+.containerProfiles{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    color: white;
+
+}
+.containerProfiles .profile{
+    background-color: var(--very-dark-magenta);
+    width: 25vw;
+    height: 35vh;
+    padding: 1.5rem;
+    margin: 0 1rem ;
+
+    border-radius: 5px;
+    line-height: 1.4rem;
+}
+.containerProfiles .profile p{
+    font-size: 14px;
+}
+.containerProfiles .profile span{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.containerProfiles .profile span img{
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 1.5rem;
+}
+.containerProfiles .profile span p{
+    display: flex;
+    flex-direction:column;
+}
+.containerProfiles .profile span p strong{
+    font-weight: 400;
+    color: var(--soft-pink);
+}
+
+.containerProfiles .profile-irene{
+    margin-top: 1rem;
+}
+.containerProfiles .profile-anne{
+    margin-top: 2rem;
+}
+
+@media  (min-width: 320px) and (max-width:840px){
+    .containerProfiles{
+        flex-direction: column;
+        align-items: center;
+    }
+    .containerProfiles .profile{
+        width: 85%;
+        margin-left: 0;
+        height: 100%;
+
+    }
+    .containerProfiles .profile-anne{
+        margin-top: 1rem;
+    }
+}
+@media  (min-width: 841px) and (max-width:1096px){
+    .containerProfiles .profile{
+        width: 90%;
+        margin-left: 0.5rem;
+
+    }
+}
