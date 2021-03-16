@@ -42,8 +42,6 @@
 @media  (min-width: 320px) and (max-width:840px) {
  
     .containerHeader{
-        background-color: white;
-
         margin: 0;
         flex-direction: column;
     }
@@ -56,11 +54,8 @@
         text-align: center;
         align-items: center;
     }
-    .containerHeader .containerLoveUsers h1{
-        width: 20rem;
-    }
-    .containerHeader .containerLoveUsers p {
-        width: 35rem;
+    .containerHeader .containerLoveUsers p{
+        margin:0 .8rem ;
     }
     .containerHeader .containerStars {
         margin-bottom: 1.5rem;
